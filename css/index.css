@@ -1,0 +1,65 @@
+/**
+ * ime1212 CSS
+ * index
+ * 2015-12-10
+ */
+
+*,*:before,*:after{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+body{
+    margin: 0;
+    font-size: 0;
+    background-color: #d8e5f0;
+    position: relative;
+    font-family: "微软雅黑",Helvetica,Arial,sans-serif;
+    background-color:#ffdd53;
+}
+div{
+    position: relative;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/*========== main ==========*/
+#main{
+    width: 720px;
+    margin: 0 auto;
+    background-color:#ffdd53;
+}
+#bj{
+    width: 720px;
+    height: 960px;
+}
+/*==================== private css ====================*/
+
+/*#main>img{*/
+    /*width: 100%;*/
+/*}*/
+
+#btn {
+    width: 337px;
+    height: 110px;
+    background-size: 100%;
+    background-image: url(../img/button-1.png);
+    position: absolute;
+    top: 788px;
+    left: 190px;
+    cursor: pointer;
+}
+#btn:active {
+    background-image: url(../img/button-2.png);
+}
+
+#wenzi{
+    /*position: absolute;*/
+    bottom: 30px;
+    text-align: center;
+    font-size: 28px;
+    color: #373535;
+}
